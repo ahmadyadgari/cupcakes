@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,19 +10,19 @@
     <input type="text" id="username" name="username" required><br><br>
 
     <label>Cupcake flavors:</label><br>
-    <input type="checkbox" id="The Grasshopper" name="flavors[]">
+    <input type="checkbox" id="The Grasshopper" name="flavors[]" value="The Grasshopper">
     <label for="The Grasshopper">The Grasshopper</label><br>
-    <input type="checkbox" id="Whisky Maple Bacon" name="flavors[]">
+    <input type="checkbox" id="Whisky Maple Bacon" name="flavors[]" value="Whiskey Maple Bacon">
     <label for="Whisky Maple Bacon">Whiskey Maple Bacon</label><br>
-    <input type="checkbox" id="Carrot Walnut" name="flavors[]">
-    <label for="strawberry">Carrot Walnut</label><br>
-    <input type="checkbox" id="Salted Caramel Cupcake" name="flavors[]">
+    <input type="checkbox" id="Carrot Walnut" name="flavors[]" value="Carrot Walnut">
+    <label for="Carrot Walnut">Carrot Walnut</label><br>
+    <input type="checkbox" id="Salted Caramel Cupcake" name="flavors[]" value="Salted Caramel Cupcake">
     <label for="Salted Caramel Cupcake">Salted Caramel Cupcake</label><br>
-    <input type="checkbox" id="Red Velvet" name="flavors[]">
-    <label for="Red Velvet">Red Velvet</label><br><br>
-    <input type="checkbox" id="Lemon Drop" name="flavors[]">
-    <label for="Lemon Drop">Lemon Drop</label><br><br>
-    <input type="checkbox" id="Tiramisu" name="flavors[]">
+    <input type="checkbox" id="Red Velvet" name="flavors[]" value="Red Velvet">
+    <label for="Red Velvet">Red Velvet</label><br>
+    <input type="checkbox" id="Lemon Drop" name="flavors[]" value="Lemon Drop">
+    <label for="Lemon Drop">Lemon Drop</label><br>
+    <input type="checkbox" id="Tiramisu" name="flavors[]" value="Tiramisu">
     <label for="Tiramisu">Tiramisu</label><br><br>
 
     <input type="submit" value="Order">
