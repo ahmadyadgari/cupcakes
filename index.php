@@ -25,7 +25,7 @@
     <input type="checkbox" id="Tiramisu" name="flavors[]" value="Tiramisu">
     <label for="Tiramisu">Tiramisu</label><br><br>
 
-    <input type="submit" value="Order">
+    <input type="submit" value="Order" style="background-color: green; color: white; border: none">
 </form>
 </body>
 </html>
