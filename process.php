@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $totalCost = count($flavors) * $costPerCupcake;
 
     echo "<h1>Thank you, $username, for your order!</h1>";
-    echo "<h2>You have ordered the following cupcakes:</h2>";
+    echo "<h2>Order Summary:</h2>";
     echo "<ul>";
     foreach ($flavors as $flavor) {
         echo "<li>" . htmlspecialchars($flavor) . "</li>";

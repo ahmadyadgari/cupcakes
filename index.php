@@ -6,10 +6,10 @@
 <body>
 <h1>Cupcake Fundraiser</h1>
 <form action="process.php" method="post">
-    <label for="username">Your Name:</label><br>
-    <input type="text" id="username" name="username" required><br><br>
+    <label for="username">Your Name:</label><br><br>
+    <input type="text" id="username" name="username" placeholder="Please put your name." required><br>
 
-    <label>Cupcake flavors:</label><br>
+    <h2>Cupcake flavors:</h2><br>
     <input type="checkbox" id="The Grasshopper" name="flavors[]" value="The Grasshopper">
     <label for="The Grasshopper">The Grasshopper</label><br>
     <input type="checkbox" id="Whisky Maple Bacon" name="flavors[]" value="Whiskey Maple Bacon">
